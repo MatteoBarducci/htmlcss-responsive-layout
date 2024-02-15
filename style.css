@@ -138,17 +138,6 @@ INTRO
     color: #1185FD;
 }
 
-@media screen and (max-width: 992px){
 
-    .intro .flex{
-        flex-direction: column;
-    }
-    .row{
-        flex-direction: column;
-    }
-    .col{
-        width: 100%;
-    }
-}
 
 
