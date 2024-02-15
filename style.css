@@ -1,0 +1,154 @@
+/*------------
+RESET
+-------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------
+GENERAL
+-------------*/
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+img{
+    size: 100%;
+}
+
+li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    border-radius: 20px;
+    background-color: white;
+    color: #111111;
+    border: none;
+    padding: 8px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.container-1140{
+    max-width: 1170px;
+    margin: 0 auto 0;
+    padding: 0 15px;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col{
+    padding: 0 15px;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.vertical-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+/*------------
+HEADER
+-------------*/
+header{
+    background-color: #1185FD;
+    padding: 15px 0;
+}
+/*------------
+INTRO
+-------------*/
+.intro .col{
+    width: calc(100% / 3);
+    padding: 0 15px 30px 0;
+
+}
+
+.intro p{
+    color: #5A6E7F;
+    margin: 0px 0 30px 0;
+    line-height: 1.6;
+}
+
+.intro .card{
+    background-color: #B5DDFF;
+    padding: 20px 20px 0 20px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.card-grow{
+    margin-top: 43px;
+    gap: 100px;
+}
+
+.intro h3{
+    color: #1185FD;
+}
+
+.intro h3:not(.no-margin){
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#phone-img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+#apple-btn{
+    background-color:#1185FD;
+    color: white;
+    padding: 10px 40px;
+}
+
+.card-left, .card-right{
+    width: 50%;
+}
+
+.intro i:not(.fa-brands){
+    font-size: 70px;
+    color: #1185FD;
+}
+
+@media screen and (max-width: 992px){
+
+    .flex{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+}
+
+
