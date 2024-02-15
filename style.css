@@ -140,7 +140,7 @@ INTRO
 
 @media screen and (max-width: 992px){
 
-    .flex{
+    .intro .flex{
         flex-direction: column;
     }
     .row{
