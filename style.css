@@ -55,6 +55,10 @@ button{
     padding: 0 15px;
 }
 
+.col-50{
+    max-width: 50%;
+}
+
 .grow{
     flex-grow: 1;
 }
@@ -74,6 +78,11 @@ button{
 .text-center{
     text-align: center;
 }
+
+.container-880{
+    max-width: 880px;
+    margin: auto;
+}
 /*------------
 HEADER
 -------------*/
@@ -91,6 +100,14 @@ header button{
     font-size: larger;
     display: none;
 }
+
+p{
+    line-height: 1.6;
+}
+
+.margin-top-200{
+    margin-top: 200px;
+}
 /*------------
 INTRO
 -------------*/
@@ -102,7 +119,6 @@ INTRO
 .intro p{
     color: #5A6E7F;
     margin: 0px 0 30px 0;
-    line-height: 1.6;
 }
 
 .intro .card{
@@ -137,7 +153,7 @@ INTRO
     padding: 10px 40px;
 }
 
-.card-left, .card-right{
+.intro .card-left,.intro .card-right{
     width: 50%;
 }
 
@@ -146,16 +162,69 @@ INTRO
     color: #1185FD;
 }
 
+/*------------
+PLANNING
+-------------*/
+.planning{
+    background-color: #9792E4;
+    color: white;
+}
+
+.planning .container-880{
+    padding: 50px 0 50px 0;
+}
+
+.planning img{
+    width: 100%;
+}
+
+.planning .card-right{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.planning .card-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.planning .card-right h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.planning .card-left h2{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 992px){
     .flex{
         flex-wrap: wrap;
     }
 
-    .intro .card-left,.card-right{
+    .intro .card-left,.intro .card-right{
         width: 100%;
     }
-}
 
+    .planning .col{
+        width: 100% !important;
+    }
+}
 
 @media screen and (max-width: 768px){
 
@@ -167,7 +236,7 @@ INTRO
         flex-wrap: wrap;
     }
 
-    .intro .col,.card-left,.card-right{
+    .intro .col,.intro .card-left,.intro .card-right{
         width: 100%;
         padding-right: 0;
     }
